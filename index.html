@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>Personal Information</header>
+
+      <form action="#">
+        <div class="form first">
+          <div class="details personal">
+            <div class="fields">
+              <div class="input-field">
+                <h4>First Name</h4>
+                <input
+                  type="text"
+                  placeholder="Enter your first name"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <h4>Last Name</h4>
+                <input
+                  type="text"
+                  placeholder="Enter your last name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="fields">
+              <div class="input-field">
+                <h4>Email</h4>
+                <input type="email" placeholder="Enter your email" required />
+              </div>
+              <div class="input-field">
+                <h4>Password</h4>
+                <input
+                  type="password"
+                  placeholder="Enter your password"
+                  required
+                />
+              </div>
+            </div>
+            <div class="fields">
+              <div class="input-field">
+                <h4>Phone</h4>
+                <input
+                  type="number"
+                  placeholder="Enter your mobile number"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <h4>Date of Birth</h4>
+                <input type="date" placeholder="" required />
+              </div>
+            </div>
+            <div class="fields">
+              <div class="radio">
+                <h4>Gender</h4>
+                <div >
+                  <div>
+                    <input type="radio" id="male" name="drone" value="huey" />
+                    <label for="male">Male</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">Female</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" id="louie" name="drone" value="louie" />
+                    <label for="louie">Other</label>
+                  </div>
+                </div>
+              </div>
+              <div class="checkbox">
+                <h4>Hobbies</h4>
+                <div class="">
+                  <div>
+                    <input type="checkbox" id="male" name="drone" value="huey" />
+                    <label for="male">Gardening</label>
+                  </div>
+
+                  <div>
+                    <input type="checkbox" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">Drawing</label>
+                  </div>
+
+                  <div>
+                    <input type="checkbox" id="louie" name="drone" value="louie" />
+                    <label for="louie">Travelling</label>
+                  </div>
+                </div>
+              </div>
+              
+              </div>
+              <div class="fields">
+                <div class="input-field">
+                  <h4>Relegion</h4>
+                  <select required>
+                    <option disabled selected>Select relegion</option>
+                    <option>Islam</option>
+                    <option>Hinduism</option>
+                    <option>Buddhism</option>
+                    <option>Christianity</option>
+                  </select>
+                </div>
+                <div class="input-field">
+                  <h4>Blood Group</h4>
+                  <select required>
+                    <option disabled selected>Select blood group</option>
+                    <option>AB+</option>
+                    <option>AB-</option>
+                    <option>A+</option>
+                    <option>A-</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                    <option>O+</option>
+                    <option>O-</option>
+                  </select>
+                </div>
+              </div> 
+              <div class="fields textarea">
+                <h4>Address</h4>
+                <textarea id="" name="" rows="5" cols="65">
+                  
+                </textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="details ID">
+            <button class="nextBtn">
+              <span class="btnText">Submit</span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!--<script src="script.js"></script>-->
+  </body>
+</html>
